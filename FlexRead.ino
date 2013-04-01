@@ -29,7 +29,7 @@ void loop() {
     Serial.println(ArduSensorValue);  // print the value on the Serial monitor
   }
   
-  if(ArduSensorValue == 4 || ArduSensorValue == 5 || ArduSensorValue == 6) {
+  if(ArduSensorValue == 6 || ArduSensorValue == 7 || ArduSensorValue == 8) {
     Serial.println("Straight in the middle");  // print that it is straight in
     // the middle if it has a neutral value
   }
