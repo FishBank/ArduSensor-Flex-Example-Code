@@ -24,7 +24,7 @@ void loop() {
     Serial.print("Backwards ");  // if the bend is going backwards, print it
     Serial.println(ArduSensorValue);  // print the value on the Serial monitor
   }
-  if(ArduSensorValue >= 7) {
+  if(ArduSensorValue >= 9) {
     Serial.print("Forwards ");   // if the bend is going forwards, print it
     Serial.println(ArduSensorValue);  // print the value on the Serial monitor
   }
