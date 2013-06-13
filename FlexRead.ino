@@ -20,7 +20,7 @@ void loop() {
   // assign the variable to the value of the ArduSensor Flex
   ArduSensorValue=analogRead(0);
 
-  if(ArduSensorValue <= 3) {
+  if(ArduSensorValue <= 5) {
     Serial.print("Backwards ");  // if the bend is going backwards, print it
     Serial.println(ArduSensorValue);  // print the value on the Serial monitor
   }
